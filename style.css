@@ -1,0 +1,24 @@
+ul {
+    justify-content: center;
+    display: table;
+    box-sizing: border-box;
+}
+
+li{
+    width: 50px;
+    height: 50px;
+    border: 1px solid aqua;
+    list-style: none;
+    box-sizing: border-box;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 20px;
+}
+
+.focused {
+    background : aquamarine;
+}
+
+.hovered {
+    background: burlywood;
+}
